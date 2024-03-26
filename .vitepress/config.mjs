@@ -31,7 +31,7 @@ export default defineConfig({
     ],
 
     footer: {
-      copyright: "Starsharbor",
+      copyright: "©2024 ❖星港◎Star☆ 版权所有",
     },
 
     socialLinks: [
