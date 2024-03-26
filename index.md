@@ -11,11 +11,14 @@ hero:
     alt: 背景图
   actions:
     - theme: brand
+      text: 频道使用
+      link: /waiting
+    - theme: brand
+      text: 群聊使用
+      link: /waiting
+    - theme: alt
       text: 主人博客
       link: https://blog.starsharbor.com/
-    - theme: alt
-      text: 查看文档
-      link: /waiting
 
 features:
   - title: 初次接触
