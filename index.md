@@ -10,15 +10,15 @@ hero:
     src: /img/background.png
     alt: 背景图
   actions:
-    - theme: brand
-      text: 频道使用
-      link: /waiting
-    - theme: brand
-      text: 群聊使用
-      link: /waiting
-    - theme: alt
+   - theme: brand
       text: 主人博客
       link: https://blog.starsharbor.com/
+    - theme: alt
+      text: 频道使用
+      link: /waiting
+    - theme: alt
+      text: 群聊使用
+      link: /waiting
 
 features:
   - title: 初次接触
