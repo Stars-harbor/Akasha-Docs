@@ -4,6 +4,8 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "虚空终端使用文档",
   description: "在此查看并解决您在使用过程中遇到的问题",
+  base: "/",
+  logo: "/img/logo.svg",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
@@ -13,13 +15,22 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: 'Examples',
+        text: '频道机器人',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: '注意事项', link: '/waiting' },
+        ]
+      },
+      {
+        text: '群聊机器人',
+        items: [
+          { text: '注意事项', link: '/waiting' },
         ]
       }
     ],
+
+    footer: {
+      copyright: "Starsharbor",
+    },
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/Stars-harbor' }
