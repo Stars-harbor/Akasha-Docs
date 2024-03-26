@@ -5,6 +5,7 @@ export default defineConfig({
   title: "虚空终端使用文档",
   description: "在此查看并解决您在使用过程中遇到的问题",
   base: "/",
+  head: [["link", { rel: "icon", href: "/logo.svg" }]],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     logo: "/img/logo.svg",
