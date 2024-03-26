@@ -10,7 +10,7 @@ hero:
     src: /img/background.png
     alt: 背景图
   actions:
-   - theme: brand
+    - theme: brand
       text: 主人博客
       link: https://blog.starsharbor.com/
     - theme: alt
