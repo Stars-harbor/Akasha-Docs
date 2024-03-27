@@ -15,10 +15,10 @@ hero:
       link: https://blog.starsharbor.com/
     - theme: alt
       text: 频道使用
-      link: /waiting
+      link: /qq-guild-index
     - theme: alt
       text: 群聊使用
-      link: /waiting
+      link: /qq-group-index
 
 features:
   - title: 初次接触
