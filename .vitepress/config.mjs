@@ -19,13 +19,15 @@ export default defineConfig({
       {
         text: '频道机器人',
         items: [
-          { text: '注意事项', link: '/waiting' },
+          { text: '介绍', link: '/qq-guild-index' },
+          { text: '使用须知', link: '/waiting' },
         ]
       },
       {
         text: '群聊机器人',
         items: [
-          { text: '注意事项', link: '/waiting' },
+          { text: '介绍', link: '/qq-group-index' },
+          { text: '使用须知', link: '/waiting' },
         ]
       }
     ],
