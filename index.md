@@ -19,6 +19,9 @@ hero:
     - theme: alt
       text: 群聊使用
       link: /qq-group-index
+    - theme: brand
+      text: 赞助
+      link: /sponsor-our-project
 
 features:
   - title: 初次接触

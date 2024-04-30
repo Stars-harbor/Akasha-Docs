@@ -29,6 +29,12 @@ export default defineConfig({
           { text: '介绍', link: '/qq-group-index' },
           { text: '使用须知', link: '/waiting' },
         ]
+      },
+      {
+        text: '更多',
+        items: [
+          { text: '赞助', link: '/sponsor-our-project' },
+        ]
       }
     ],
 
