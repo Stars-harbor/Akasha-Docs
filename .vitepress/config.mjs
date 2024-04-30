@@ -12,22 +12,23 @@ export default defineConfig({
 
     nav: [
       { text: '主页', link: '/' },
-      { text: '主人博客', link: 'https://blog.starsharbor.com/' }
+      { text: '主人博客', link: 'https://blog.starsharbor.com/' },
+      { text: '邮箱', link: 'mailto:starsharbor@qq.com' },
     ],
 
     sidebar: [
-      {
-        text: '群聊机器人',
-        items: [
-          { text: '介绍', link: '/qq-group-index' },
-          { text: '使用须知', link: '/qq-group-instructions' },
-        ]
-      },
       {
         text: '频道机器人',
         items: [
           { text: '介绍', link: '/qq-guild-index' },
           { text: '使用须知', link: '/qq-guild-instructions' },
+        ]
+      },
+      {
+        text: '群聊机器人',
+        items: [
+          { text: '介绍', link: '/qq-group-index' },
+          { text: '使用须知', link: '/qq-group-instructions' },
         ]
       },
       {
