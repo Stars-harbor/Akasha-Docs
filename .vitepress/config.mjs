@@ -18,6 +18,12 @@ export default defineConfig({
 
     sidebar: [
       {
+        text: '系统公告',
+        items: [
+          { text: '公告', link: '/announcement' },
+        ]
+      },
+      {
         text: '频道机器人',
         items: [
           { text: '介绍', link: '/qq-guild-index' },
