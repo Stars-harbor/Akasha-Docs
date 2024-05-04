@@ -11,8 +11,8 @@ hero:
     alt: 背景图
   actions:
     - theme: brand
-      text: 主人博客
-      link: https://blog.starsharbor.com/
+      text: 公告
+      link: /announcement
     - theme: alt
       text: 频道使用
       link: /qq-guild-index
@@ -24,6 +24,8 @@ hero:
       link: /sponsor-our-project
 
 features:
+  - title: 了解信息
+    details: 及时掌握项目最新变动与调整
   - title: 初次接触
     details: 尽可能解决因从来没用过类似的机器人导致完全不会使用、胡乱使用的问题
   - title: 遇到问题
