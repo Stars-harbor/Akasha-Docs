@@ -43,6 +43,13 @@ export default defineConfig({
           { text: '赞助', link: '/sponsor-our-project' },
         ]
       },
+      {
+        text: '群主、频道主签约',
+        items: [
+          { text: '群聊签约', link: '/group-signing' },
+          { text: '频道签约', link: '/guild-signing' },
+        ]
+      },
     ],
 
     footer: {
