@@ -18,11 +18,11 @@
 
 ![](https://img.starsharbor.com/2024-05-01/f6edad39f6de2.jpg)
 
-- 微信（不推荐）
+- 微信赞赏
 
 > 受提现转入手续费影响，实际置入项目的资金可能略少于赞助金额
 
-![](https://img.starsharbor.com/2024-05-01/9d2205bd72c01.png)
+![](https://img.starsharbor.com/2024-06-01/9a2d2840a8e8c.png)
 
 - 爱发电（不推荐）
 
