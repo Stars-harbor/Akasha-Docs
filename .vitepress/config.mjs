@@ -12,8 +12,7 @@ export default defineConfig({
 
     nav: [
       { text: '主页', link: '/' },
-      { text: '主人博客', link: 'https://blog.starsharbor.com/' },
-      { text: '邮箱', link: 'mailto:starsharbor@qq.com' },
+      { text: '主人博客', link: 'https://blog.starsharbor.com/' }
     ],
 
     sidebar: [
@@ -41,6 +40,7 @@ export default defineConfig({
         text: '更多',
         items: [
           { text: '赞助', link: '/sponsor-our-project' },
+          { text: '隐私政策', link:'/privacy-policy' },
         ]
       },
       {
