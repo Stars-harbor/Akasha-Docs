@@ -12,7 +12,8 @@ export default defineConfig({
 
     nav: [
       { text: '主页', link: '/' },
-      { text: '主人博客', link: 'https://blog.starsharbor.com/' }
+      { text: '主人博客', link: 'https://blog.starsharbor.com/' },
+      { text: '邮箱', link: 'mailto:starsharbor@qq.com' }
     ],
 
     sidebar: [
