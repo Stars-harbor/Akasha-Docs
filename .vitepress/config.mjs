@@ -41,6 +41,7 @@ export default defineConfig({
         text: '更多',
         items: [
           { text: '赞助', link: '/sponsor-our-project' },
+          { text: '隐私政策', link: '/privacy-policy' },
         ]
       },
       {
