@@ -1,14 +1,10 @@
 {
-  "devDependencies": {
-    "vitepress": "^1.2.3"
-  },
   "scripts": {
     "docs:dev": "vitepress dev",
     "docs:build": "vitepress build",
     "docs:preview": "vitepress preview"
   },
   "dependencies": {
-    "@vitejs/plugin-vue": "^5.0.5",
-    "vue": "^3.4.31"
+    "twikoo": "^1.6.36"
   }
 }
