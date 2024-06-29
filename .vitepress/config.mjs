@@ -62,7 +62,7 @@ export default defineConfig({
       { icon: 'github', link: 'https://github.com/Stars-harbor' }
     ]
   },
-  enhanceApp: ({app}) => {
-    app.component('Layout',Layout);
+  enhanceApp: ({ app }) => {
+    app.component('Layout', Layout);
   }
 })
