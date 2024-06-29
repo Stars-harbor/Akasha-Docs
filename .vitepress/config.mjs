@@ -1,5 +1,7 @@
 import { defineConfig } from 'vitepress';
 import Layout from './theme/Layout.vue';
+import { resolve } from 'path';
+import vue from '@vitejs/plugin-vue';
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -61,6 +63,13 @@ export default defineConfig({
     socialLinks: [
       { icon: 'github', link: 'https://github.com/Stars-harbor' }
     ]
+  },
+  vite: {
+    resolve: {
+      alias: {
+        '@theme': resolve(__dirname, 'theme')
+      }
+    }
   },
   enhanceApp: ({ app }) => {
     app.component('Layout', Layout);
