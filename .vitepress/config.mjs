@@ -59,5 +59,8 @@ export default defineConfig({
     socialLinks: [
       { icon: 'github', link: 'https://github.com/Stars-harbor' }
     ]
+  },
+  enhanceApp: ({app}) => {
+    app.component('Layout',Layout);
   }
 })
