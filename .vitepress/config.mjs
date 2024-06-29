@@ -1,5 +1,5 @@
-import { defineConfig } from 'vitepress'
-import Layout from './theme/Layout.vue'
+import { defineConfig } from 'vitepress';
+import Layout from './theme/Layout.vue';
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
