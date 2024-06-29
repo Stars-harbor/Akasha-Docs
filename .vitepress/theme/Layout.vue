@@ -14,7 +14,7 @@ export default {
     onMounted(() => {
       if (typeof twikoo !== 'undefined') {
         twikoo.init({
-          envId: 'https://starsharbor-twikoo.netlify.app/.netlify/functions/twikoo',  // 请替换成你的 Twikoo 环境 ID
+          envId: 'https://starsharbor-twikoo.netlify.app/.netlify/functions/twikoo',
           el: '#twikoo',
         });
       }
@@ -22,7 +22,3 @@ export default {
   }
 }
 </script>
-
-<style>
-/* 你可以在这里添加一些自定义样式 */
-</style>
